@@ -1,0 +1,26 @@
+/* 
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+ */
+
+ .container {
+    /* margin: 50px;
+    width: 70%; */
+    overflow-y: scroll;
+ }
+
+ .container::-webkit-scrollbar {
+   width: 0px;
+   background: transparent; /* make scrollbar transparent */
+}
+
+ .pre-offerings {
+   margin-bottom: 10px;
+ }
+
+ .bach--input {
+   margin-left: 15px;
+ }

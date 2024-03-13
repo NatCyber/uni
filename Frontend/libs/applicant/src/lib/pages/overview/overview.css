@@ -1,0 +1,49 @@
+/* .overview-content {
+  overflow-y: scroll;
+
+} */
+
+.personal {
+  height: 50vh;
+}
+
+.title-container {
+  height: 40px;
+  /* background-color: #34BCA6; */
+  background-color: hsla(213, 65%, 27%, 0.821);
+  display: flex;
+  align-items: center;
+}
+
+.title-container h3 {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.xl-avatar {
+  background-color: #204776;
+  color: #fff;
+  font-size: 100px;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.fw-bolder {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+
+
+.upcoming-events--container {
+  background-color: orange;
+  color: #fff;
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 15px;
+}

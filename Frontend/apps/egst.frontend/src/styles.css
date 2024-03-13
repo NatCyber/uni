@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* You can add global styles to this file, and also import other style files */
+
+.page-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.content-manager {
+  display: flex;
+  width: 100%;
+}
+
+.main-container {
+  width: calc(100vw - 220px);
+  height: calc(100vh - 60px);
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-mobile {
+  width: 100%;
+}
+
+.main-icon-mode {
+  width: calc(100vw - 70px);
+}
+
+.main-wrapper {
+  width: 95%;
+  height: 95%;
+  background-color: #fff;
+  overflow-y: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+  /* Hide scrollbar for other browsers */
+  scrollbar-width: none;
+  border-radius: 7px;
+}
+
+.main-wrapper::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* Make scrollbar invisible */
+}
+
+@media only screen and (max-width: 1000px) {
+  .col-later {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .full-later {
+    width: 98% !important;
+  }
+}

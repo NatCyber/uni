@@ -1,0 +1,90 @@
+input[type='file'] {
+    display: none;
+  }
+  
+  .image-cont {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+  }
+  
+  .custom-file-upload {
+    /* width: 22%; */
+    margin: auto;
+    padding: 0px;
+  }
+  
+  .custom-file-upload img {
+    width: 40px;
+  }
+  
+  .add-place-images {
+    width: 100px;
+    height: 10vh;
+  }
+  
+  .photo-items {
+    border: none;
+    width: fit-content;
+    margin: 2px;
+  }
+  
+  .remove-place-photo {
+    width: 20px;
+    position: relative;
+    left: 40px;
+  }
+  
+  .upload-icon {
+    font-size: 35px;
+    margin: 10px 30%;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* border: #68b858 2px dashed; */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-icon:hover {
+    /* border: #68b858 2px solid; */
+    color: #989898;
+  }
+  
+  .upload-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-files-queue {
+    display: flex;
+    /* justify-content: space-evenly; */
+  }
+  
+  .upload-files-queue div {
+    margin-left: 4px;
+  }
+  
+  .no-data-msg {
+    color: #989898;
+  }
+  
+  .cancel-queue-file-btn {
+    color: #ee19159e;
+    position: relative;
+    top: -96px;
+    left: 80px;
+    z-index: 99;
+    cursor: pointer;
+  }
+  

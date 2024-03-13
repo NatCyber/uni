@@ -1,0 +1,416 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.applicant-container {
+  width: 100%;
+}
+
+.applicant-list--header {
+  margin-bottom: 15px;
+}
+
+.application-list--labels {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  box-shadow: #f7f7f7 0px 0px 3px 1px;
+  padding: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.application-list--labels {
+  /* border-left-style: dotted;
+border-left: 1px solid #e5e5e5;
+padding-left: 5px; */
+}
+
+.applicant-row-container {
+  cursor: pointer;
+}
+
+.application-list--parent {
+  width: 80%;
+  padding: 5px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  box-shadow: #f7f7f7 0px 0px 3px 1px;
+}
+
+.application-list--parent:hover {
+  border-bottom: 1px solid orange;
+  box-shadow: #f7f7f7 0px 0px 7px 3px;
+}
+
+.application-list--child {
+  border-left-style: dotted;
+  border-left: 1px solid #e5e5e5;
+  padding-left: 5px;
+}
+
+.applicant-container {
+  width: 100%;
+  min-width: 100vh;
+  /* margin: 50px; */
+  /* padding: 50px; */
+}
+
+/* .applicant-header-container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.applicant-header-title {
+  width: 100px;
+  font-weight: bold;
+  display: table-header-group;
+  border-left: #e9e9e9 1px solid;
+  padding-left: 5px;
+}
+.applicant-list-container {
+  flex-direction: column;
+}
+
+
+
+.church_affiliation-container {
+  background-color: #f8f8f8;
+  max-width: 70%;
+  margin: 10px auto;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.church_affiliation-container-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.--form {
+  width: 40%;
+}
+
+.form-title {
+}
+
+.funds-container {
+  display: flex;
+}
+
+*/
+
+.back--arrow-btn {
+  font-size: 20px;
+
+  /* padding: 10px; */
+  margin: 30px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.application-container {
+  width: 100%;
+  min-height: 74vh;
+  max-height: 74vh;
+  overflow-y: scroll;
+  margin: 10px;
+  padding: 15px;
+  /* background-color: #f9f9f9; */
+  max-width: 82%;
+}
+
+.application-container::-webkit-scrollbar {
+  display: none;
+}
+
+.applicant-detail-card {
+  background-color: #ffffff;
+  /* border-radius: 7px; */
+  padding: 10px;
+  box-shadow: 0px 0px 3px 1px#f7f7f7;
+  margin: 10px;
+  min-width: 430px;
+}
+
+.applicant-detail-card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.applicant-card-title {
+  color: #e1902f;
+  padding: 5px 2px 0px 8px;
+}
+
+.applicant-detail-container {
+  flex-direction: column;
+}
+
+
+/* **************************************************************************************** */
+/* **************************************************************************************** */
+                            /* new application form styles */
+/* **************************************************************************************** */
+/* **************************************************************************************** */
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+} */
+
+
+.church_affiliation-container {
+  background-color: #F8F8F8;
+  /* margin-top: 10px; */
+  padding: 10px;
+  width: 60%;
+}
+
+.church_affiliation-container-form {
+  display: flex;
+  width: 90%;
+}
+
+.--form {
+  width: 50%;
+}
+
+.application-data {
+  width: 50%;
+}
+
+.application-row {
+  padding: 7px 7px 0px 5px;
+  display: flex;
+}
+
+.applicant-detail-container {
+  display: flex;
+}
+
+.application-date {
+  color: #828282;
+  font-size: 12px;
+}
+
+.application-title {
+  font-size: 20px;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+.application-label {
+  font-weight: bold;
+  min-width: 200px;
+  margin-right: 20px;
+  /* width: fit-content; */
+}
+
+.application-data {
+  width: 50%;
+  padding: 5px;
+  background-color: #2f94e11a;
+}
+
+.application-action-container {
+  min-height: 20vh;
+  margin: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  /* border-radius: 7px; */
+  box-shadow: #f7f7f7 0px 0px 3px 1px;
+}
+
+.action-button-container {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .church_affiliation-container {
+    background-color: #f8f8f8;
+    max-width: 90%;
+    margin: 15px auto;
+  }
+}
+.pageContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.contentManager {
+  display: flex;
+  width: 100%;
+}
+
+.main-container {
+  width: calc(100vw - 220px);
+  height: calc(100vh - 60px);
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-mobile {
+  width: 100%;
+}
+
+.main-icon-mode {
+  width: calc(100vw - 70px);
+}
+
+.main-wrapper {
+  width: 95%;
+  height: 95%;
+  background-color: #fff;
+  overflow-y: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+  /* Hide scrollbar for other browsers */
+  scrollbar-width: none;
+  border-radius: 7px;
+}
+
+.main-wrapper::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* Make scrollbar invisible */
+}
+
+@media only screen and (max-width: 1000px) {
+  .col-later {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .full-later {
+    width: 98% !important;
+  }
+}
+
+.c-white {
+  color: white;
+}
+
+.es-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-container {
+  height: 40px;
+  background-color: #34BCA6;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.title-container i {
+  margin-left: 10px;
+  font-size: large;
+}
+
+.title-container h3 {
+  margin-left: 5px;
+}
+
+.es-content {
+  width: 100%;
+}
+
+.es-tab-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+ 
+.table-container {
+  width: 98%;
+  margin: 10px 20px;
+  overflow-x: auto;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.error {
+  display: inline;
+  color: red;
+}
+
+.applicationForm{
+  margin: 20px 10px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* width: 100%; */
+}
+
+.formDisplay {
+  background-color: #f8f8f8;
+  padding: 10px 15px;
+  width: 60%;
+}
+
+.formSection {
+  display: flex;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+
+.input-man {
+  
+}
+
+.applicationContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px 10px 0;
+}
+
+.formik {
+  /* width: 60%; */
+}
+
+.label {
+    margin: 5px 10px
+}
+
+
+.line {
+  /* position: absolute; */
+  /* left: 40px; */
+  height: 0px;
+  border: 1px dashed #6499E9;
+  margin-top: 13px;
+  width: 40px;
+  /* background-color: #000; */
+}
+

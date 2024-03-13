@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar-container {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: #eaeaea 0px 0px 4px 1px;
+  display: flex;
+  margin-bottom: 4px;
+  padding: 5px;
+  position: fixed;
+  z-index: 99999;
+  justify-content: space-between;
+}
+
+.nav-bar-container img {
+  width: 100px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav-links {
+  width: 100%;
+}
+
+.nav-links button {
+  float: right;
+}
+
+.user-menu {
+  display: flex;
+  width: 90%;
+  background-color: #ffffff;
+  /* padding: 10px; */
+  /* position: absolute;
+  top: 60px;
+  right: 50px; */
+  /* box-shadow: #cbcbcb 0px 0px 7px 2px; */
+  z-index: 999999999999;
+}
+
+.menu-items {
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user-menu-link {
+  display: flex;
+  text-decoration: none;
+  padding: 10px;
+  width: fit-content;
+}
+
+.user-menu-link:hover {
+  background-color: #f2f2f2d6;
+  cursor: pointer;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding-top: 50px;
+  width: 40%;
+  margin: 0 auto;
+  /* padding: 200px; */
+  /* box-shadow: #cbcbcb 0px 0px 7px 2px; */
+  border-radius: 5px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: hsla(212, 66%, 15%, 0.625);
+  color: #fff;
+  margin-right: 30px;
+}
+
+.avatar:hover {
+  background-color: hsla(211, 66%, 15%, 0.765);
+  cursor: pointer;
+}
+
+.application {
+  width: 100%;
+}
+
+.application-container {
+  display: flex;
+  position: static;
+  width: 60%;
+}
+
+.application-stage {
+  position: fixed;
+  left: 0;
+  width: 230px;
+  height: 90vh;
+  padding: 20px;
+  background-color: #ececf0;
+  border-right: #dddddd 1px solid;
+}
+
+.application-form-container {
+  width: 80%;
+  /* height: 90vh; */
+}
+
+.application-main-container {
+  width: 100%;
+  margin: 30px 40px;
+  min-width: 100%;
+}
+
+.user-menu-phone {
+  display: none;
+}
+
+.historyCard-1 {
+  width: fit-content;
+  padding: 1px 5px 1px 5px;
+  font-size: 9px;
+}
+
+.historyCard-1 {
+  background-color: #edae63;
+}
+
+.historyCard-2 {
+  background-color: #ff3131cc;
+}
+
+.historyCard-3 {
+  background-color: #337f44ab;
+}
+.application-history-main-container {
+  width: 70%;
+  margin: 10px 24%;
+  min-width: 30%;
+}
+
+.status-message-button {
+  border: none;
+  background: #ffffff;
+}
+
+.application-history-menu-container {
+  width: fit-content;
+  height: 85vh;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border-right: #eeeeee 1px solid;
+}
+
+.application-main-container {
+  margin-left: 300px;
+}
+
+.application-history-detail-container {
+  margin: 10px;
+  padding: 10px;
+}
+
+.application-history-title {
+  font-weight: bold;
+}
+
+.application-history-detail-header {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.application-history-detail-body {
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.applicationDate {
+  font-size: 14px;
+  color: #828282;
+}
+
+.driver-container-item {
+  max-width: 75%;
+  margin-top: 10px;
+}
+
+.applicant-input-item {
+  max-width: 75%;
+  /* min-width: ; */
+}
+
+.driver-input-item {
+  margin-top: 10px;
+}
+
+.applicant-input-items {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1172px) {
+  .avatar {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+  }
+
+  .user-menu {
+    display: none;
+  }
+
+  .user-menu-phone {
+    width: 200px;
+    background-color: #ffffff;
+    box-shadow: #dfdfdf 0px 0px 7px 1px;
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 35px;
+  }
+
+  .user-menu-link {
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    width: 180px;
+  }
+}

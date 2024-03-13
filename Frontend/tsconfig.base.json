@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@egst.frontend/applicant": ["libs/applicant/src/index.ts"],
+      "@egst.frontend/auth": ["libs/auth/src/index.ts"],
+      "@egst.frontend/batch": ["libs/batch/src/index.ts"],
+      "@egst.frontend/course": ["libs/course/src/index.ts"],
+      "@egst.frontend/course-offering": ["libs/course-offering/src/index.ts"],
+      "@egst.frontend/dashboard": ["libs/dashboard/src/index.ts"],
+      "@egst.frontend/department": ["libs/department/src/index.ts"],
+      "@egst.frontend/egst": ["libs/egst/src/index.ts"],
+      "@egst.frontend/instructor": ["libs/instructor/src/index.ts"],
+      "@egst.frontend/organization": ["libs/organization/src/index.ts"],
+      "@egst.frontend/program": ["libs/program/src/index.ts"],
+      "@egst.frontend/shared": ["libs/shared/src/index.ts"],
+      "@egst.frontend/student": ["libs/student/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

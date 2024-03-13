@@ -1,0 +1,92 @@
+.field {
+  margin-bottom: 10px;
+}
+
+.error {
+  display: inline;
+  color: red;
+}
+
+.application-form {
+  margin: 20px 10px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* width: 100%; */
+}
+
+.form-display {
+  background-color: #f8f8f8;
+  padding: 10px 15px;
+  width: 60%;
+}
+
+.form-section {
+  display: flex;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+  /* justify-content: ; */
+  
+}
+
+.input-man {
+  width: 300px;
+  border-radius: 7px;
+  padding: 5px;
+  border: red 1px solid;
+}
+
+.finance-information_cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 96%;
+  margin: 30px auto;
+}
+
+.checkbox--block {
+  width: fit-content;
+  margin-left: auto;
+  display: flex;
+}
+
+.finance-information_cont--block {
+  background-color: #f9f9f9;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: #eaeaea 0px 0px 3px 1px;
+}
+
+.application-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px 10px 0;
+}
+
+.formik {
+  /* width: 60%; */
+}
+
+.application-form h4 {
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.label {
+  margin {
+    margin: 5px 10px
+  }
+}
+
+
+.line {
+  /* position: absolute; */
+  /* left: 40px; */
+  height: 0px;
+  border: 1px dashed #6499E9;
+  margin-top: 13px;
+  width: 40px;
+  /* background-color: #000; */
+}

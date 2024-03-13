@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.organization-form-container {
+  width: 80%;
+  /* height: 90vh; */
+  padding: 20px;
+}
+
+.orgTree-form-container { 
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  border-width: 5px;
+}
+
+.organization-input-items {
+  margin-top: 10px;
+  margin: 5px;
+}
+
+.organization-form-popup{
+  width: 50%;
+}
+
+.org-button-field{
+  background-color: black;
+  color: rgb(138, 6, 6);
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.org-list{
+  max-width: 300px;
+  padding: 35px ;
+}

@@ -1,0 +1,131 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.parent--container {
+  max-width: 70%;
+  max-height: 80vh;
+  margin: 50px 5%;
+  overflow-y: scroll;
+}
+
+.parent--container::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+.page-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.content-manager {
+  display: flex;
+  width: 100%;
+}
+
+.main-container {
+  width: calc(100vw - 220px);
+  height: calc(100vh - 60px);
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-mobile {
+  width: 100%;
+}
+
+.main-icon-mode {
+  width: calc(100vw - 70px);
+}
+
+.main-wrapper {
+  width: 95%;
+  height: 95%;
+  background-color: #fff;
+  overflow-y: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+  /* Hide scrollbar for other browsers */
+  scrollbar-width: none;
+  border-radius: 7px;
+}
+
+.main-wrapper::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* Make scrollbar invisible */
+}
+
+/*  Program Detail styles */
+
+.title--text {
+  color: #142036;
+}
+
+.program-detail-container {
+}
+
+.program-description {
+  background-color: #142036;
+  color: #fff;
+  padding: 10px;
+}
+
+.program-description b {
+  font-size: 13px;
+}
+
+.program-description--head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.program-description .Description {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.program-Modules-Concentrations {
+  width: fit-content;
+  margin-top: 30px;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.program-Concentrations {
+  margin: 5px;
+  margin-right: 5px;
+  box-shadow: #e1e1e1 0px 0px 2px 1px;
+  padding: 5px;
+}
+
+.program-Modules {
+  margin: 5px;
+
+  margin-right: 5px;
+  box-shadow: #e1e1e1 0px 0px 2px 1px;
+  padding: 5px;
+}
+
+/*  Program Detail styles */
+
+@media only screen and (max-width: 1000px) {
+  .col-later {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .full-later {
+    width: 98% !important;
+  }
+}

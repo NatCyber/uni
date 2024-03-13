@@ -1,0 +1,102 @@
+.input-box-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+}
+
+.card-item {
+  background-color: #fefefe;
+  margin-top: 10px;
+  padding: 4px;
+  /* box-shadow: #f5f5f5 0px 0px 3px 1px; */
+  border-radius: 5px;
+}
+
+.card-item:hover {
+  background-color: #fefefebe;
+  cursor: pointer;
+}
+
+.stage-dot_active,
+.stage-dot {
+  min-width: 10px;
+  min-height: 10px;
+  cursor: pointer;
+}
+
+.stage-dot {
+  border: orange 2px solid;
+  width: 10px;
+  height: 10px;
+  margin-top: 17px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.stage-dot:hover {
+  background-color: #ffa60087;
+  border: orange 2px solid;
+}
+
+.stage-dot_active {
+  border: orange 2px solid;
+  background-color: orange;
+  width: 10px;
+  height: 10px;
+  margin-top: 17px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.progress-line-container .vertical {
+  width: 0px;
+  height: 25px;
+  margin-left: 5px;
+  border: #ffa500 1px dashed;
+}
+
+.card-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+}
+
+.card-content-label {
+  font-weight: 700;
+  font-size: 17px;
+  padding-top: 5px;
+}
+
+.card-content-figure {
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+.inner-card-content{
+  /* flex-direction: row; */
+  min-width: 160px;
+}
+
+.history-card-content {
+  width: 100%;
+  display: flex;
+  font-size: 17px;
+  justify-content:space-between;
+}
+
+
+
+.history-card-content-status {
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+.history-card-content-date {
+  font-size: 10px;
+  padding-top: 10px;
+}
+
